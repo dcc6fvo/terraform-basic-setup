@@ -20,11 +20,11 @@ Access the newly created folder with the git clone command and type the followin
 
 Then creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure:
 
-  terraform plan
+  	terraform plan
   
 Finally, the command that executes the actions proposed in a terraform plan (it is used to deploy your infrastructure):
 
-  terraform apply -auto-approve
+  	terraform apply -auto-approve
 
 To destroy all the configurations:
 
