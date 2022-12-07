@@ -1,4 +1,5 @@
- resource "aws_subnet" "public_subnet" {
+/*
+resource "aws_subnet" "public_subnet" {
   vpc_id     = aws_vpc.main.id
   cidr_block = var.public_subnet_cidr
   availability_zone = var.az1
@@ -24,4 +25,4 @@ resource "aws_subnet" "private_subnet" {
   tags = {
     Name = "Private Subnet"
   }
-}
+}*/
