@@ -6,6 +6,9 @@ In this very basic - terraform/aws - example we create:
   - one public instance in us region
   - four private instances in sa region
 
+Prerequisites
+-----------------------
+Terraform
    
 Installation && Running
 -----------------------
