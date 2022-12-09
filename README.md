@@ -8,7 +8,8 @@ In this very basic - terraform/aws - example we create:
 
 Prerequisites
 -----------------------
-Terraform
+  - Terraform
+  - AWS CLI
    
 Installation && Running
 -----------------------
