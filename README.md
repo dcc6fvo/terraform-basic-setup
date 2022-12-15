@@ -1,6 +1,6 @@
 # terraform-basic-setup
 
-In this very basic - terraform/aws - example we create:
+In this very basic terraform/aws script we manage to work with 2 AWS regions. After running, the program will create:
 
   - one public instance in sa region
   - one public instance in us region
@@ -17,6 +17,10 @@ Installation && Running
 Do a git clone of the project:
 
 	git clone https://github.com/dcc6fvo/terraform-basic-setup 
+	
+Change key-pair field of aws-instances with your current keys:
+
+	vim main.tf
 
 Access the newly created folder with the git clone command and type the following command:
 
