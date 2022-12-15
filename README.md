@@ -36,4 +36,4 @@ Finally, the command that executes the actions proposed in a terraform plan (i
 
 To destroy all the configurations:
 
-	terraform destoy
+	terraform destroy
