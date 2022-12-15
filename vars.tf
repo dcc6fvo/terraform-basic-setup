@@ -13,12 +13,6 @@ variable "public_subnet_cidr" {
   default     = "192.168.0.0/24"
 }
 
-variable "public_subnet_cidr" {
-  type        = string
-  description = "Public Subnet CIDR value"
-  default     = "192.168.0.0/24"
-}
-
 variable "private_subnet_cidr" {
   type        = string
   description = "Public Subnet CIDR value"
